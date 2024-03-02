@@ -14,8 +14,8 @@ function UpdateUserDataForm() {
   // We don't need the loading state, and can immediately use the user data, because we know that it has already been loaded at this point
   const {
     user: {
-      email,
-      user_metadata: { fullName: currentFullName },
+      email = "",
+      user_metadata: { fullName: currentFullName = "" } = {},
     },
   } = useUser();
 
@@ -67,7 +67,7 @@ function UpdateUserDataForm() {
       <FormRow>
         <Button
           type="reset"
-          variations="secondary"
+          $variations="secondary"
           disabled={isUserUpdating}
           onClick={handleCancel}
         >

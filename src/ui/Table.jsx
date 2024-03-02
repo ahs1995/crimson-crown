@@ -12,7 +12,7 @@ import styled from "styled-components";
 
 const CommonRow = styled.div`
   display: grid;
-  grid-template-columns: ${(props) => props.columns};
+  grid-template-columns: ${(props) => props.$columns};
   column-gap: 2.4rem;
   align-items: center;
   transition: none;
@@ -73,12 +73,12 @@ function Table({ children, columns }) {
 function Header({ children }) {
   const { columns } = useContext(TableContext);
 
-  return <StyledHeader columns={columns}>{children}</StyledHeader>;
+  return <StyledHeader $columns={columns}>{children}</StyledHeader>;
 }
 
 function Row({ children }) {
   const { columns } = useContext(TableContext);
-  return <StyledRow columns={columns}>{children}</StyledRow>;
+  return <StyledRow $columns={columns}>{children}</StyledRow>;
 }
 function Body({ data, render }) {
   return <StyledBody>{data.map(render)}</StyledBody>;
