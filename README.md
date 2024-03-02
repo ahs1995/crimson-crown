@@ -2,7 +2,7 @@
 
 Welcome to the GitHub repository of the **Crimson Crown Hotel Management Web Application**! This innovative internal tool is specifically designed for the Crimson Crown Hotel staff, aiming to streamline operations, enhance employee productivity, and offer insightful analytics to support decision-making processes. Developed with modern technologies and a focus on user experience, this application stands as a testament to our commitment to excellence in the hospitality industry.
 
-##Demo: https://crimson-crown-ahs.netlify.app
+## Demo: https://crimson-crown-ahs.netlify.app
 
 ## Key Features
 
@@ -60,6 +60,6 @@ Your Name - [ashik.srkr1995@gmail.com](mailto:your_ashik.srkr1995@gmail.com)
 
 Project Link: [https://github.com/ahs1995/crimson-crown](https://github.com/ahs1995/crimson-crown)
 
-## Demo: [https://crimson-crown-ahs.netlify.app](https://crimson-crown-ahs.netlify.app)
+Demo: [https://crimson-crown-ahs.netlify.app](https://crimson-crown-ahs.netlify.app)
 
 Your journey with the **Crimson Crown Hotel Management Web Application** starts here. Dive in and explore how this tool can transform your hotel's daily operations, making them more efficient, insightful, and user-friendly.
